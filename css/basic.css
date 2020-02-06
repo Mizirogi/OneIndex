@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .item::before
+   body,
+  .item::before {
+    background-image: url("https://api.ooopn.com/image/bing/api.php");
+    background-color: #eeeeee;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  } 
+   body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  } */
+body {
+  background-color: #eeeeee;
+}
+
+.weather-icon{
+  width: 3rem;
+  height: 3rem;
+}
+.serach-area {
+  max-width: 43.125rem;
+  margin: auto;
+}
+.weather-container{
+  padding-left: 30px;
+}
+.serach-container .layui-tab-title { 
+  max-width: 31.25rem;
+}
+.serach-container .layui-tab-content {
+  padding: 0.625rem 0;
+}
+#keyword {
+  width: 75%;
+  max-width: 31.25rem;
+  height: 2.5rem;
+  box-shadow: 0 0 0.0625rem 0.0625rem #c2c2c2;
+  border: 0;
+  outline: none;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.6);
+}
+#serach-submint {
+  float: right;
+  background-color: #c2c2c2;
+  color: black;
+  border: none;
+  box-shadow: 0 0 0.0625rem 0.0625rem #c2c2c2;
+  height: 2.5rem;
+  max-width: 7.5rem;
+  width: 25%;
+}
+
+#main-container {
+  max-width: 75rem;
+  margin: 3.125rem auto;
+  background: #fff;
+  padding: 3.125rem 0;
+}
+.serach-container { 
+  margin: auto;
+  margin-top: 2.5rem;
+}
+.weather-container {
+  display: flex;
+  align-items: center;
+}
+.weather-container #tem{
+  margin-left: 1.25rem;
+  font-size: 1.25rem;
+}
+
+@media screen and (max-width: 64rem) {
+  #main-container {
+    margin: 0;
+  }
+}
+
+
+@media screen and (max-width: 480px){
+  .serach-container {
+    width: 90%;
+}
+}
+@media screen and (max-width: 768px){
+  .serach-container {
+    width: 70%;
+}
+}
+@media screen and (max-width: 1024px){
+  .serach-container {
+    width: 90%;
+}
+}
