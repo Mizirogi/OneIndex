@@ -79,6 +79,30 @@ body {
   margin-left: 1.25rem;
   font-size: 1.25rem;
 }
+.url-table{
+  padding: 50px 30px 90px 30px;
+  margin-top:60px;
+  background-color: #f7f7f7;
+}
+.url-table-title{
+  display: flex;
+    justify-content: space-evenly;
+    border: none;
+}
+.url-table-title>.layui-this:after{
+    border: none;
+}
+.url-info ul{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.url-info ul li{
+  display: inline-block;
+  width: 5em;
+}
+
 
 @media screen and (max-width: 64rem) {
   #main-container {
@@ -88,17 +112,17 @@ body {
 
 
 @media screen and (max-width: 480px){
-  .serach-container {
+  .serach-container .url-table{
     width: 90%;
 }
 }
 @media screen and (max-width: 768px){
-  .serach-container {
+  .serach-container .url-table{
     width: 70%;
 }
 }
 @media screen and (max-width: 1024px){
-  .serach-container {
+  .serach-container .url-table{
     width: 90%;
 }
 }
